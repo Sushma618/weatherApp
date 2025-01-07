@@ -52,7 +52,7 @@ function displayweatherInfo(data){
     const weatherEmoji = document.createElement("p");
 
     citydisplay.textContent = city;
-    tempdisplay.textContent = `${(temp * 9/5 + 32).toFixed(1)} °F`;
+    tempdisplay.textContent = `${temp.toFixed(1)} °C`;
 
     humiditydisplay.textContent = `Humidity: ${humidity}`;
     descdisplay.textContent=description;
